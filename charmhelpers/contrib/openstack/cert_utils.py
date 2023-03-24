@@ -275,7 +275,7 @@ def create_ip_cert_links(ssl_dir, custom_hostname_link=None, bindings=None):
     hostname_key = os.path.join(
         ssl_dir,
         'key_{}'.format(hostname))
-    log(f"{hostname=},{hostname_cert=},{hosname_key=}", WARNING)
+    log(f"{hostname=},{hostname_cert=},{hostname_key=}", WARNING)
     if custom_hostname_link:
         custom_cert = os.path.join(
             ssl_dir,
