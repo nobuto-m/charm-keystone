@@ -14,6 +14,7 @@
 
 # Common python helper functions used for OpenStack charm certificates.
 
+import inspect
 import os
 import json
 from base64 import b64decode
@@ -75,7 +76,7 @@ class CertRequest(object):
         :param cn: str Canonical Name for certificate
         :param addresses: [] List of addresses to be used as SANs
         """
-        log(f"{cn=},{addresses=}", WARNING)
+        log(f"{inspect.stack()[0][3]}: {cn=},{addresses=}", WARNING)
         self.entries.append({
             'cn': cn,
             'addresses': addresses})
@@ -93,7 +94,7 @@ class CertRequest(object):
         self.hostname_entry = {
             'cn': get_hostname(ip),
             'addresses': addresses}
-        log(f"{ip=},{addresses=},{vip=},{self.hostname_entry=}", WARNING)
+        log(f"{inspect.stack()[0][3]}: {ip=},{addresses=},{vip=},{self.hostname_entry=}", WARNING)
 
     def add_hostname_cn_ip(self, addresses):
         """Add an address to the SAN list for the hostname request
@@ -103,7 +104,7 @@ class CertRequest(object):
         for addr in addresses:
             if addr not in self.hostname_entry['addresses']:
                 self.hostname_entry['addresses'].append(addr)
-        log(f"{addresses=},{self.hostname_entry=}", WARNING)
+        log(f"{inspect.stack()[0][3]}: {addresses=},{self.hostname_entry=}", WARNING)
 
     def get_request(self):
         """Generate request from the batched up entries
@@ -120,7 +121,7 @@ class CertRequest(object):
         else:
             req = {'cert_requests': request}
         req['unit_name'] = local_unit().replace('/', '_')
-        log(f"{self.hostname_entry=},{self.entries=},"
+        log(f"{inspect.stack()[0][3]}: {self.hostname_entry=},{self.entries=},"
             f"{sans=},{request=},{req=}", WARNING)
         return req
 
@@ -257,15 +258,15 @@ def create_ip_cert_links(ssl_dir, custom_hostname_link=None, bindings=None):
         requested_key = os.path.join(
             ssl_dir,
             'key_{}'.format(cert_req))
-        log(f"{cert_req=},{requested_cert=},{requested_key=}", WARNING)
+        log(f"{inspect.stack()[0][3]}: {cert_req=},{requested_cert=},{requested_key=}", WARNING)
         for addr in req[cert_req]['sans']:
             cert = os.path.join(ssl_dir, 'cert_{}'.format(addr))
             key = os.path.join(ssl_dir, 'key_{}'.format(addr))
-            log(f"{cert=},{key=}", WARNING)
+            log(f"{inspect.stack()[0][3]}: {cert=},{key=}", WARNING)
             if os.path.isfile(requested_cert) and not os.path.isfile(cert):
                 os.symlink(requested_cert, cert)
                 os.symlink(requested_key, key)
-    log(f"{bindings=},{req=}", WARNING)
+    log(f"{inspect.stack()[0][3]}: {bindings=},{req=}", WARNING)
 
     # Handle custom hostnames
     hostname = get_hostname(local_address(unit_get_fallback='private-address'))
@@ -275,7 +276,7 @@ def create_ip_cert_links(ssl_dir, custom_hostname_link=None, bindings=None):
     hostname_key = os.path.join(
         ssl_dir,
         'key_{}'.format(hostname))
-    log(f"{hostname=},{hostname_cert=},{hostname_key=}", WARNING)
+    log(f"{inspect.stack()[0][3]}: {hostname=},{hostname_cert=},{hostname_key=}", WARNING)
     if custom_hostname_link:
         custom_cert = os.path.join(
             ssl_dir,
@@ -283,7 +284,7 @@ def create_ip_cert_links(ssl_dir, custom_hostname_link=None, bindings=None):
         custom_key = os.path.join(
             ssl_dir,
             'key_{}'.format(custom_hostname_link))
-        log(f"{custom_hostname_link=},{custom_cert=},{custom_key=}", WARNING)
+        log(f"{inspect.stack()[0][3]}: {custom_hostname_link=},{custom_cert=},{custom_key=}", WARNING)
         if os.path.isfile(hostname_cert) and not os.path.isfile(custom_cert):
             os.symlink(hostname_cert, custom_cert)
             os.symlink(hostname_key, custom_key)
