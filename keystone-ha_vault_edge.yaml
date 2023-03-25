@@ -4,7 +4,7 @@ applications:
     charm: hacluster
     channel: 2.4/stable
   keystone:
-    charm: ./charm-keystone
+    charm: ./
     #channel: latest/edge
     num_units: 3
     to:
