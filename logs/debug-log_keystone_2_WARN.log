@@ -1,0 +1,74 @@
+unit-keystone-2: 12:35:13 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Failed to stop keystone.service: Unit keystone.service not loaded.
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Failed to disable unit: Unit file keystone.service does not exist.
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Unit keystone.service does not exist, proceeding anyway.
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Created symlink /etc/systemd/system/keystone.service → /dev/null.
+unit-keystone-2: 12:38:30 WARNING unit.keystone/2.install ERROR no relation id specified
+unit-keystone-2: 12:38:30 WARNING unit.keystone/2.juju-log database relation is missing and must be related for functionality. 
+unit-keystone-2: 12:38:37 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:44:16 WARNING unit.keystone/2.config-changed Unit /etc/systemd/system/keystone.service is masked, ignoring.
+unit-keystone-2: 12:44:24 WARNING unit.keystone/2.config-changed ERROR no relation id specified
+unit-keystone-2: 12:44:27 WARNING unit.keystone/2.config-changed E: Package 'python-dbus' has no installation candidate
+unit-keystone-2: 12:44:42 WARNING unit.keystone/2.start ERROR no relation id specified
+unit-keystone-2: 12:44:47 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131'
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131',rev=<DNS name 131.151.168.192.in-addr.arpa.>,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: fqdn=True,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn: ip='192.168.151.131',addresses=['192.168.151.131', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-2: 12:45:41 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.131', '192.168.151.99'],self.hostname_entry={'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-2: 12:45:41 WARNING unit.keystone/2.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']},self.entries=[{'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}],sans=['192.168.151.131', '192.168.151.99'],request={'eth0.juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}},req={'cert_requests': '{"eth0.juju-043209-2-lxd-0.maas": {"sans": ["192.168.151.131", "192.168.151.99"]}}', 'unit_name': 'keystone_2'}
+unit-keystone-2: 12:48:42 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:48:49 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:48:54 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:49:03 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:49:08 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:49:33 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.certificates-relation-changed rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: install_certs: cn='eth0.juju-043209-2-lxd-0.maas',ssl_dir='/etc/apache2/ssl/keystone',cert_filename='cert_eth0.juju-043209-2-lxd-0.maas',key_filename='key_eth0.juju-043209-2-lxd-0.maas',chain=None
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131'
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131',rev=<DNS name 131.151.168.192.in-addr.arpa.>,result='juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn: ip='192.168.151.131',addresses=['192.168.151.131', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.99', '192.168.151.131'],self.hostname_entry={'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']},self.entries=[{'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}],sans=['192.168.151.131', '192.168.151.99'],request={'juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}},req={'cert_requests': {'juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}}, 'unit_name': 'keystone_2'}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: cert_req='juju-043209-2-lxd-0.maas',requested_cert='/etc/apache2/ssl/keystone/cert_juju-043209-2-lxd-0.maas',requested_key='/etc/apache2/ssl/keystone/key_juju-043209-2-lxd-0.maas'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.131',key='/etc/apache2/ssl/keystone/key_192.168.151.131',os.path.isfile(requested_cert)=False,os.path.isfile(cert)=False
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.99',key='/etc/apache2/ssl/keystone/key_192.168.151.99',os.path.isfile(requested_cert)=False,os.path.isfile(cert)=False
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: bindings=['internal', 'admin', 'public', 'internal', 'admin', 'public'],req={'juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131',rev=<DNS name 131.151.168.192.in-addr.arpa.>,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: fqdn=True,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: hostname='eth0.juju-043209-2-lxd-0.maas',hostname_cert='/etc/apache2/ssl/keystone/cert_eth0.juju-043209-2-lxd-0.maas',hostname_key='/etc/apache2/ssl/keystone/key_eth0.juju-043209-2-lxd-0.maas',custom_hostname_link=None
+unit-keystone-2: 12:50:58 WARNING unit.keystone/2.certificates-relation-changed Job for apache2.service failed because the control process exited with error code.
+unit-keystone-2: 12:50:58 WARNING unit.keystone/2.certificates-relation-changed See "systemctl status apache2.service" and "journalctl -xeu apache2.service" for details.
+unit-keystone-2: 12:50:59 WARNING unit.keystone/2.certificates-relation-changed Job for apache2.service failed because the control process exited with error code.
+unit-keystone-2: 12:50:59 WARNING unit.keystone/2.certificates-relation-changed See "systemctl status apache2.service" and "journalctl -xeu apache2.service" for details.
+unit-keystone-2: 12:54:09 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 12:58:35 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:03:46 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:08:11 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:13:56 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:19:20 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:25:01 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:30:15 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:34:48 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:40:16 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:45:06 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:45:10 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 13:50:28 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:55:01 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 13:59:17 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:03:49 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:09:27 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:14:59 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:19:31 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:24:20 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:28:55 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:33:28 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:38:28 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:44:09 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:48:21 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:50:08 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 14:54:17 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 14:58:59 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-2: 15:03:58 WARNING unit.keystone/2.update-status ERROR no relation id specified

@@ -1,0 +1,343 @@
+unit-keystone-1: 12:34:26 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-0: 12:34:39 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-2: 12:35:13 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-1: 12:37:55 WARNING unit.keystone/1.install Failed to stop keystone.service: Unit keystone.service not loaded.
+unit-keystone-1: 12:37:55 WARNING unit.keystone/1.install Failed to disable unit: Unit file keystone.service does not exist.
+unit-keystone-1: 12:37:55 WARNING unit.keystone/1.install Unit keystone.service does not exist, proceeding anyway.
+unit-keystone-1: 12:37:55 WARNING unit.keystone/1.install Created symlink /etc/systemd/system/keystone.service → /dev/null.
+unit-keystone-1: 12:37:56 WARNING unit.keystone/1.install ERROR no relation id specified
+unit-keystone-1: 12:37:57 WARNING unit.keystone/1.juju-log database relation is missing and must be related for functionality. 
+unit-keystone-mysql-router-0: 12:38:01 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-0: 12:38:06 WARNING unit.keystone/0.install Failed to stop keystone.service: Unit keystone.service not loaded.
+unit-keystone-0: 12:38:06 WARNING unit.keystone/0.install Failed to disable unit: Unit file keystone.service does not exist.
+unit-keystone-0: 12:38:06 WARNING unit.keystone/0.install Unit keystone.service does not exist, proceeding anyway.
+unit-keystone-0: 12:38:06 WARNING unit.keystone/0.install Created symlink /etc/systemd/system/keystone.service → /dev/null.
+unit-keystone-0: 12:38:07 WARNING unit.keystone/0.install ERROR no relation id specified
+unit-keystone-0: 12:38:07 WARNING unit.keystone/0.juju-log database relation is missing and must be related for functionality. 
+unit-keystone-mysql-router-1: 12:38:09 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-0: 12:38:14 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Failed to stop keystone.service: Unit keystone.service not loaded.
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Failed to disable unit: Unit file keystone.service does not exist.
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Unit keystone.service does not exist, proceeding anyway.
+unit-keystone-2: 12:38:29 WARNING unit.keystone/2.install Created symlink /etc/systemd/system/keystone.service → /dev/null.
+unit-keystone-2: 12:38:30 WARNING unit.keystone/2.install ERROR no relation id specified
+unit-keystone-2: 12:38:30 WARNING unit.keystone/2.juju-log database relation is missing and must be related for functionality. 
+unit-keystone-mysql-router-2: 12:38:33 ERROR juju.worker.meterstatus error running "meter-status-changed": charm missing from disk
+unit-keystone-2: 12:38:37 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-mysql-router-1: 12:42:27 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:42:50 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:43:23 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 12:43:37 WARNING unit.keystone/1.leader-elected ERROR no relation id specified
+unit-keystone-1: 12:43:47 WARNING unit.keystone/1.config-changed Unit /etc/systemd/system/keystone.service is masked, ignoring.
+unit-keystone-0: 12:43:57 WARNING unit.keystone/0.config-changed Unit /etc/systemd/system/keystone.service is masked, ignoring.
+unit-keystone-0: 12:44:04 WARNING unit.keystone/0.config-changed ERROR no relation id specified
+unit-keystone-0: 12:44:06 WARNING unit.keystone/0.config-changed E: Package 'python-dbus' has no installation candidate
+unit-keystone-1: 12:44:07 ERROR unit.keystone/1.juju-log Key repository setup failed, will retry in config-changed hook: Command '['sudo', '-u', 'keystone', 'keystone-manage', 'credential_migrate']' returned non-zero exit status 1.
+unit-keystone-1: 12:44:07 WARNING unit.keystone/1.config-changed ERROR no relation id specified
+unit-keystone-1: 12:44:09 WARNING unit.keystone/1.config-changed E: Package 'python-dbus' has no installation candidate
+unit-keystone-2: 12:44:16 WARNING unit.keystone/2.config-changed Unit /etc/systemd/system/keystone.service is masked, ignoring.
+unit-keystone-0: 12:44:20 WARNING unit.keystone/0.start ERROR no relation id specified
+unit-keystone-2: 12:44:24 WARNING unit.keystone/2.config-changed ERROR no relation id specified
+unit-keystone-1: 12:44:26 WARNING unit.keystone/1.start ERROR no relation id specified
+unit-keystone-0: 12:44:26 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:44:27 WARNING unit.keystone/2.config-changed E: Package 'python-dbus' has no installation candidate
+unit-keystone-mysql-router-1: 12:44:29 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:44:30 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:44:35 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:44:42 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:44:42 WARNING unit.keystone/2.start ERROR no relation id specified
+unit-keystone-1: 12:44:43 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: address='192.168.151.199'
+unit-keystone-1: 12:44:44 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: address='192.168.151.199',rev=<DNS name 199.151.168.192.in-addr.arpa.>,result='juju-043209-1-lxd-0.maas.'
+unit-keystone-1: 12:44:44 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-1-lxd-0.maas.'
+unit-keystone-1: 12:44:44 WARNING unit.keystone/1.juju-log certificates:10: add_hostname_cn: ip='192.168.151.199',addresses=['192.168.151.199', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']}
+unit-keystone-1: 12:44:45 WARNING unit.keystone/1.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.99', '192.168.151.199'],self.hostname_entry={'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']}
+unit-keystone-1: 12:44:45 WARNING unit.keystone/1.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']},self.entries=[{'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']}],sans=['192.168.151.199', '192.168.151.99'],request={'juju-043209-1-lxd-0.maas': {'sans': ['192.168.151.199', '192.168.151.99']}},req={'cert_requests': '{"juju-043209-1-lxd-0.maas": {"sans": ["192.168.151.199", "192.168.151.99"]}}', 'unit_name': 'keystone_1'}
+unit-keystone-mysql-router-1: 12:44:47 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:44:47 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-mysql-router-2: 12:44:50 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:44:50 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:44:53 ERROR unit.keystone-mysql-router/1.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:44:55 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:44:57 ERROR unit.keystone-mysql-router/0.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:45:00 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:45:05 ERROR unit.keystone-mysql-router/0.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:45:09 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:45:10 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:45:14 ERROR unit.keystone-mysql-router/2.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:45:16 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:45:18 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:45:25 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:45:25 ERROR unit.keystone-mysql-router/2.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:45:31 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:45:34 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:45:36 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131'
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131',rev=<DNS name 131.151.168.192.in-addr.arpa.>,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: fqdn=True,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:45:39 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn: ip='192.168.151.131',addresses=['192.168.151.131', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-mysql-router-1: 12:45:40 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:45:41 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.131', '192.168.151.99'],self.hostname_entry={'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-2: 12:45:41 WARNING unit.keystone/2.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']},self.entries=[{'cn': 'eth0.juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}],sans=['192.168.151.131', '192.168.151.99'],request={'eth0.juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}},req={'cert_requests': '{"eth0.juju-043209-2-lxd-0.maas": {"sans": ["192.168.151.131", "192.168.151.99"]}}', 'unit_name': 'keystone_2'}
+unit-keystone-mysql-router-2: 12:45:45 ERROR unit.keystone-mysql-router/2.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 12:45:46 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: address='192.168.151.134'
+unit-keystone-0: 12:45:46 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: address='192.168.151.134',rev=<DNS name 134.151.168.192.in-addr.arpa.>,result='juju-043209-0-lxd-0.maas.'
+unit-keystone-0: 12:45:46 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-0-lxd-0.maas.'
+unit-keystone-0: 12:45:46 WARNING unit.keystone/0.juju-log certificates:10: add_hostname_cn: ip='192.168.151.134',addresses=['192.168.151.134', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']}
+unit-keystone-0: 12:45:48 WARNING unit.keystone/0.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.134', '192.168.151.99'],self.hostname_entry={'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']}
+unit-keystone-0: 12:45:48 WARNING unit.keystone/0.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']},self.entries=[{'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']}],sans=['192.168.151.134', '192.168.151.99'],request={'juju-043209-0-lxd-0.maas': {'sans': ['192.168.151.134', '192.168.151.99']}},req={'cert_requests': '{"juju-043209-0-lxd-0.maas": {"sans": ["192.168.151.134", "192.168.151.99"]}}', 'unit_name': 'keystone_0'}
+unit-keystone-mysql-router-1: 12:45:51 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:45:54 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:46:02 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:46:03 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:46:11 ERROR unit.keystone-mysql-router/1.juju-log shared-db:6: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:46:14 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:46:31 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:46:34 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:46:35 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Failed to connect to database due to '(2003, "Can't connect to MySQL server on '127.0.0.1:3306' (111)")'
+unit-keystone-mysql-router-1: 12:46:35 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:46:36 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Failed to connect to database due to '(2003, "Can't connect to MySQL server on '127.0.0.1:3306' (111)")'
+unit-keystone-mysql-router-0: 12:46:43 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:47:05 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:47:06 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:47:11 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:47:15 ERROR unit.keystone-mysql-router/1.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:47:18 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:47:22 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:47:25 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:47:27 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:47:27 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Failed to connect to database due to '(2003, "Can't connect to MySQL server on '127.0.0.1:3306' (111)")'
+unit-keystone-mysql-router-1: 12:47:31 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:47:33 ERROR unit.keystone-mysql-router/2.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:48:12 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 12:48:17 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:48:42 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 12:48:42 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:48:49 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 12:48:49 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 12:48:53 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:48:54 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 12:49:02 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:49:03 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 12:49:07 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 12:49:08 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 12:49:14 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 12:49:24 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:49:33 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 12:49:40 ERROR unit.keystone-mysql-router/0.juju-log db-router:8: Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 12:50:52 WARNING unit.keystone/1.certificates-relation-changed rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+unit-keystone-1: 12:50:52 WARNING unit.keystone/1.juju-log certificates:10: install_certs: cn='juju-043209-1-lxd-0.maas',ssl_dir='/etc/apache2/ssl/keystone',cert_filename='cert_juju-043209-1-lxd-0.maas',key_filename='key_juju-043209-1-lxd-0.maas',chain=None
+unit-keystone-1: 12:50:52 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: address='192.168.151.199'
+unit-keystone-1: 12:50:52 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: address='192.168.151.199',rev=<DNS name 199.151.168.192.in-addr.arpa.>,result='juju-043209-1-lxd-0.maas.'
+unit-keystone-1: 12:50:52 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-1-lxd-0.maas.'
+unit-keystone-1: 12:50:52 WARNING unit.keystone/1.juju-log certificates:10: add_hostname_cn: ip='192.168.151.199',addresses=['192.168.151.199', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']}
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.certificates-relation-changed rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: install_certs: cn='eth0.juju-043209-2-lxd-0.maas',ssl_dir='/etc/apache2/ssl/keystone',cert_filename='cert_eth0.juju-043209-2-lxd-0.maas',key_filename='key_eth0.juju-043209-2-lxd-0.maas',chain=None
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131'
+unit-keystone-0: 12:50:52 WARNING unit.keystone/0.certificates-relation-changed rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+unit-keystone-0: 12:50:52 WARNING unit.keystone/0.juju-log certificates:10: install_certs: cn='juju-043209-0-lxd-0.maas',ssl_dir='/etc/apache2/ssl/keystone',cert_filename='cert_juju-043209-0-lxd-0.maas',key_filename='key_juju-043209-0-lxd-0.maas',chain=None
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131',rev=<DNS name 131.151.168.192.in-addr.arpa.>,result='juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-2-lxd-0.maas.'
+unit-keystone-0: 12:50:52 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: address='192.168.151.134'
+unit-keystone-2: 12:50:52 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn: ip='192.168.151.131',addresses=['192.168.151.131', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-0: 12:50:53 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: address='192.168.151.134',rev=<DNS name 134.151.168.192.in-addr.arpa.>,result='juju-043209-0-lxd-0.maas.'
+unit-keystone-0: 12:50:53 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-0-lxd-0.maas.'
+unit-keystone-0: 12:50:53 WARNING unit.keystone/0.juju-log certificates:10: add_hostname_cn: ip='192.168.151.134',addresses=['192.168.151.134', '192.168.151.99'],vip='192.168.151.99',self.hostname_entry={'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']}
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.99', '192.168.151.199'],self.hostname_entry={'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']}
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']},self.entries=[{'cn': 'juju-043209-1-lxd-0.maas', 'addresses': ['192.168.151.199', '192.168.151.99']}],sans=['192.168.151.199', '192.168.151.99'],request={'juju-043209-1-lxd-0.maas': {'sans': ['192.168.151.199', '192.168.151.99']}},req={'cert_requests': {'juju-043209-1-lxd-0.maas': {'sans': ['192.168.151.199', '192.168.151.99']}}, 'unit_name': 'keystone_1'}
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: create_ip_cert_links: cert_req='juju-043209-1-lxd-0.maas',requested_cert='/etc/apache2/ssl/keystone/cert_juju-043209-1-lxd-0.maas',requested_key='/etc/apache2/ssl/keystone/key_juju-043209-1-lxd-0.maas'
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.199',key='/etc/apache2/ssl/keystone/key_192.168.151.199',os.path.isfile(requested_cert)=True,os.path.isfile(cert)=False
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.99',key='/etc/apache2/ssl/keystone/key_192.168.151.99',os.path.isfile(requested_cert)=True,os.path.isfile(cert)=False
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: create_ip_cert_links: bindings=['internal', 'admin', 'public', 'internal', 'admin', 'public'],req={'juju-043209-1-lxd-0.maas': {'sans': ['192.168.151.199', '192.168.151.99']}}
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: address='192.168.151.199'
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: address='192.168.151.199',rev=<DNS name 199.151.168.192.in-addr.arpa.>,result='juju-043209-1-lxd-0.maas.'
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: get_hostname: fqdn=True,result='juju-043209-1-lxd-0.maas.'
+unit-keystone-1: 12:50:53 WARNING unit.keystone/1.juju-log certificates:10: create_ip_cert_links: hostname='juju-043209-1-lxd-0.maas',hostname_cert='/etc/apache2/ssl/keystone/cert_juju-043209-1-lxd-0.maas',hostname_key='/etc/apache2/ssl/keystone/key_juju-043209-1-lxd-0.maas',custom_hostname_link=None
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.99', '192.168.151.131'],self.hostname_entry={'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']},self.entries=[{'cn': 'juju-043209-2-lxd-0.maas', 'addresses': ['192.168.151.131', '192.168.151.99']}],sans=['192.168.151.131', '192.168.151.99'],request={'juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}},req={'cert_requests': {'juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}}, 'unit_name': 'keystone_2'}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: cert_req='juju-043209-2-lxd-0.maas',requested_cert='/etc/apache2/ssl/keystone/cert_juju-043209-2-lxd-0.maas',requested_key='/etc/apache2/ssl/keystone/key_juju-043209-2-lxd-0.maas'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.131',key='/etc/apache2/ssl/keystone/key_192.168.151.131',os.path.isfile(requested_cert)=False,os.path.isfile(cert)=False
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.99',key='/etc/apache2/ssl/keystone/key_192.168.151.99',os.path.isfile(requested_cert)=False,os.path.isfile(cert)=False
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: bindings=['internal', 'admin', 'public', 'internal', 'admin', 'public'],req={'juju-043209-2-lxd-0.maas': {'sans': ['192.168.151.131', '192.168.151.99']}}
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: address='192.168.151.131',rev=<DNS name 131.151.168.192.in-addr.arpa.>,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: get_hostname: fqdn=True,result='eth0.juju-043209-2-lxd-0.maas.'
+unit-keystone-2: 12:50:54 WARNING unit.keystone/2.juju-log certificates:10: create_ip_cert_links: hostname='eth0.juju-043209-2-lxd-0.maas',hostname_cert='/etc/apache2/ssl/keystone/cert_eth0.juju-043209-2-lxd-0.maas',hostname_key='/etc/apache2/ssl/keystone/key_eth0.juju-043209-2-lxd-0.maas',custom_hostname_link=None
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: add_hostname_cn_ip: addresses=['192.168.151.134', '192.168.151.99'],self.hostname_entry={'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']}
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: get_request: self.hostname_entry={'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']},self.entries=[{'cn': 'juju-043209-0-lxd-0.maas', 'addresses': ['192.168.151.134', '192.168.151.99']}],sans=['192.168.151.134', '192.168.151.99'],request={'juju-043209-0-lxd-0.maas': {'sans': ['192.168.151.134', '192.168.151.99']}},req={'cert_requests': {'juju-043209-0-lxd-0.maas': {'sans': ['192.168.151.134', '192.168.151.99']}}, 'unit_name': 'keystone_0'}
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: create_ip_cert_links: cert_req='juju-043209-0-lxd-0.maas',requested_cert='/etc/apache2/ssl/keystone/cert_juju-043209-0-lxd-0.maas',requested_key='/etc/apache2/ssl/keystone/key_juju-043209-0-lxd-0.maas'
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.134',key='/etc/apache2/ssl/keystone/key_192.168.151.134',os.path.isfile(requested_cert)=True,os.path.isfile(cert)=False
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: create_ip_cert_links: cert='/etc/apache2/ssl/keystone/cert_192.168.151.99',key='/etc/apache2/ssl/keystone/key_192.168.151.99',os.path.isfile(requested_cert)=True,os.path.isfile(cert)=False
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: create_ip_cert_links: bindings=['internal', 'admin', 'public', 'internal', 'admin', 'public'],req={'juju-043209-0-lxd-0.maas': {'sans': ['192.168.151.134', '192.168.151.99']}}
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: address='192.168.151.134'
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: address='192.168.151.134',rev=<DNS name 134.151.168.192.in-addr.arpa.>,result='eth0.juju-043209-0-lxd-0.maas.'
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: get_hostname: fqdn=True,result='eth0.juju-043209-0-lxd-0.maas.'
+unit-keystone-0: 12:50:54 WARNING unit.keystone/0.juju-log certificates:10: create_ip_cert_links: hostname='eth0.juju-043209-0-lxd-0.maas',hostname_cert='/etc/apache2/ssl/keystone/cert_eth0.juju-043209-0-lxd-0.maas',hostname_key='/etc/apache2/ssl/keystone/key_eth0.juju-043209-0-lxd-0.maas',custom_hostname_link=None
+unit-keystone-2: 12:50:58 WARNING unit.keystone/2.certificates-relation-changed Job for apache2.service failed because the control process exited with error code.
+unit-keystone-2: 12:50:58 WARNING unit.keystone/2.certificates-relation-changed See "systemctl status apache2.service" and "journalctl -xeu apache2.service" for details.
+unit-keystone-2: 12:50:59 WARNING unit.keystone/2.certificates-relation-changed Job for apache2.service failed because the control process exited with error code.
+unit-keystone-2: 12:50:59 WARNING unit.keystone/2.certificates-relation-changed See "systemctl status apache2.service" and "journalctl -xeu apache2.service" for details.
+unit-keystone-mysql-router-0: 12:51:22 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:51:49 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:52:41 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 12:53:39 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-2: 12:54:09 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-1: 12:54:15 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 12:55:34 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 12:57:45 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 12:58:29 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 12:58:35 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-1: 12:59:31 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-0: 12:59:39 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 12:59:48 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 13:03:15 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:03:40 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 13:03:46 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 13:04:03 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-1: 13:04:52 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:05:43 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 13:07:17 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:07:42 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 13:08:11 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 13:08:36 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-1: 13:09:13 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:10:32 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 13:12:00 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:12:00 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:13:04 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-2: 13:13:56 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:14:48 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 13:14:57 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:16:15 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:17:09 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:17:21 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:18:52 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 13:19:20 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-1: 13:19:43 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:20:51 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:22:45 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:22:54 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:23:05 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 13:23:44 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 13:25:01 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:25:51 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 13:27:13 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:28:12 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:28:19 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-1: 13:29:25 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 13:30:15 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:31:47 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:32:14 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 13:32:39 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:33:48 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-1: 13:34:44 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 13:34:48 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:36:16 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:36:23 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 13:38:25 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:38:26 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-1: 13:39:01 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 13:40:16 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 13:41:34 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 13:41:54 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 13:42:51 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 13:43:53 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-0: 13:44:01 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-2: 13:45:06 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 13:45:09 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-2: 13:45:10 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-mysql-router-2: 13:46:08 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 13:46:33 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 13:47:36 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 13:48:06 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-0: 13:48:24 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-2: 13:50:28 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:50:53 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:51:21 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 13:52:25 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:53:21 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 13:53:55 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-2: 13:55:01 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 13:55:58 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 13:57:21 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 13:57:42 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 13:58:13 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 13:59:17 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 13:59:45 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:00:16 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:01:48 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:01:58 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 14:03:21 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:03:49 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 14:05:01 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:05:36 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:07:27 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:07:29 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 14:08:23 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:09:27 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 14:10:27 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:10:38 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 14:11:59 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:12:54 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:12:59 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:14:59 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:15:56 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:16:17 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:16:27 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 14:17:52 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:18:16 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 14:19:31 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:20:04 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 14:21:07 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:21:32 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:22:40 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:23:10 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 14:24:20 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:25:14 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:25:49 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:26:39 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 14:27:12 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:28:22 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 14:28:55 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:29:29 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:30:03 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:31:58 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 14:32:09 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:32:26 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 14:33:28 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:33:30 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:34:10 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:36:18 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 14:37:57 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:38:01 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 14:38:28 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:39:16 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:39:31 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:40:22 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 14:41:59 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:44:00 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:44:03 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:44:09 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-0: 14:45:24 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:45:29 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-2: 14:46:56 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 14:48:11 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:48:21 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:49:41 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-1: 14:49:57 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-2: 14:50:08 WARNING unit.keystone/2.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 14:50:08 WARNING unit.keystone/0.leader-settings-changed ERROR no relation id specified
+unit-keystone-0: 14:50:13 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:52:49 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-1: 14:53:38 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:54:17 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-1: 14:54:40 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-0: 14:55:05 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 14:55:30 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 14:58:23 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 14:58:59 WARNING unit.keystone/2.update-status ERROR no relation id specified
+unit-keystone-mysql-router-1: 14:59:30 ERROR unit.keystone-mysql-router/1.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-mysql-router-0: 15:00:12 ERROR unit.keystone-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-0: 15:00:30 WARNING unit.keystone/0.update-status ERROR no relation id specified
+unit-keystone-1: 15:00:36 WARNING unit.keystone/1.update-status ERROR no relation id specified
+unit-keystone-mysql-router-2: 15:02:47 ERROR unit.keystone-mysql-router/2.juju-log Unable to find implementation for relation: requires of juju-info
+unit-keystone-2: 15:03:58 WARNING unit.keystone/2.update-status ERROR no relation id specified
