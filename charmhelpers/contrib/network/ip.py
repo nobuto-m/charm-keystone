@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import inspect
 import glob
 import re
 import subprocess
@@ -499,6 +500,7 @@ def get_hostname(address, fqdn=True):
     Resolves hostname for given IP, or returns the input
     if it is already a hostname.
     """
+    log(f"{inspect.stack()[0][3]}: {address=}", WARNING)
     if is_ip(address):
         try:
             import dns.reversename
@@ -509,13 +511,19 @@ def get_hostname(address, fqdn=True):
         rev = dns.reversename.from_address(address)
         result = ns_query(rev)
 
+        log(f"{inspect.stack()[0][3]}: {address=},{rev=},{result=}",
+            WARNING)
+
         if not result:
             try:
                 result = socket.gethostbyaddr(address)[0]
             except Exception:
+                log(f"{inspect.stack()[0][3]}: Exception", WARNING)
                 return None
     else:
         result = address
+
+    log(f"{inspect.stack()[0][3]}: {fqdn=},{result=}", WARNING)
 
     if fqdn:
         # strip trailing .
