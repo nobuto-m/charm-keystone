@@ -262,7 +262,7 @@ def create_ip_cert_links(ssl_dir, custom_hostname_link=None, bindings=None):
         for addr in req[cert_req]['sans']:
             cert = os.path.join(ssl_dir, 'cert_{}'.format(addr))
             key = os.path.join(ssl_dir, 'key_{}'.format(addr))
-            log(f"{inspect.stack()[0][3]}: {cert=},{key=}", WARNING)
+            log(f"{inspect.stack()[0][3]}: {cert=},{key=},{os.path.isfile(requested_cert)=},{os.path.isfile(cert)=}", WARNING)
             if os.path.isfile(requested_cert) and not os.path.isfile(cert):
                 os.symlink(requested_cert, cert)
                 os.symlink(requested_key, key)
@@ -276,7 +276,7 @@ def create_ip_cert_links(ssl_dir, custom_hostname_link=None, bindings=None):
     hostname_key = os.path.join(
         ssl_dir,
         'key_{}'.format(hostname))
-    log(f"{inspect.stack()[0][3]}: {hostname=},{hostname_cert=},{hostname_key=}", WARNING)
+    log(f"{inspect.stack()[0][3]}: {hostname=},{hostname_cert=},{hostname_key=},{custom_hostname_link=}", WARNING)
     if custom_hostname_link:
         custom_cert = os.path.join(
             ssl_dir,
@@ -316,6 +316,7 @@ def install_certs(ssl_dir, certs, chain=None, user='root', group='root'):
         write_file(
             path=os.path.join(ssl_dir, key_filename), owner=user, group=group,
             content=bundle['key'], perms=0o640)
+        log(f"{inspect.stack()[0][3]}: {cn=},{ssl_dir=},{cert_filename=},{key_filename=},{chain=}", WARNING)
 
 
 def get_cert_relation_ca_name(cert_relation_id=None):
