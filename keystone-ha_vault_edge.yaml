@@ -1,8 +1,5 @@
 series: jammy
 applications:
-  hacluster-keystone:
-    charm: hacluster
-    channel: 2.4/stable
   keystone:
     charm: ./
     #channel: latest/edge
@@ -13,7 +10,6 @@ applications:
     - lxd:2
     options:
       openstack-origin: distro
-      vip: 192.168.151.99  ## CHANGE ME!
   keystone-mysql-router:
     charm: mysql-router
     channel: 8.0/stable
@@ -55,5 +51,3 @@ relations:
   - mysql-innodb-cluster:db-router
 - - vault:certificates
   - keystone:certificates
-- - keystone:ha
-  - hacluster-keystone:ha
